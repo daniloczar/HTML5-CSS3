@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ex005/Brazil-Flag.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Outras formatacoes/Pre-formatacao</h1>
+    <h2>Codigo-Fonte</h2>
+    <p>Exemplo do texto <mark>sem</mark> o comando &lt;code&gt;</p>
+    <p>O comando <ins>document.get.ElementById('teste')</ins> e escrito em liguagem Java Script.</p>
+    <p>Exemplo do texto <mark>com</mark> o comando &lt;code&gt;</p>
+    <p>O comando <code><ins>document.get.ElementById('teste')</ins></code> e escrito em liguagem Java Script.</p><!--isso e uma fonte monoespacada-->
+    
+    <p>Exemplo do codigo code <mark>sem</mark> o comando &lt;pre&gt;</p>
+    <code>
+        num = int(input('Digite um numero'))
+        if num % 2 == 0:
+            print(f'o numero {num} e par')
+        else:
+            print(f'o numero {num} e impar')
+    </code>
+    <p>Exemplo do codigo code <mark>com</mark> o comando &lt;pre&gt;</p>
+
+    <!--O comando pre ajuda a indentar (formatar) -->
+    <pre>
+        <code>
+        num = int(input('Digite um numero'))
+        if num % 2 == 0:
+            print(f'o numero {num} e par')
+        else:
+            print(f'o numero {num} e impar')
+    </code>
+    </pre>
+
+    <h2>Citacoes Simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador e um burro muito rapido.</q></p> <!--citacao simples-->
+    <h2>Citacoes competas</h2>
+    <p>Segundo Gustavo Guanabara criado do programa <q>Curso em video,</q>
+        <blockquote cite="https://www.cursoemvideo.com/">Para aprender a programar e necessario foco e cometimento.</blockquote> </p>
+    <h2>Abreviacoes</h2>
+    <p>Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+</body>
+</html>
