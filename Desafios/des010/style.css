@@ -89,7 +89,7 @@ img {
     width: 100%;
 }
 a.content::after {
-    content: '\00a0\1f517';
+    content: '\00a0\1f517'; /*content referente ao icone de link*/
 }
 main {
     
