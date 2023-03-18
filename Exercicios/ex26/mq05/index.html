@@ -7,8 +7,9 @@
     <title>Media Query - Site</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
 </head>
-<body>
+<body onresize="changeSize()">
     <header>
         <h1>Meu Site</h1>
         <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
@@ -42,6 +43,14 @@
             itens.style.display = "none"
         } else {
             itens.style.display = "block"
+        }
+    }
+
+    function changeSize() {
+        if (window.innerWidth >= 768) {
+            itens.style.display = "block"
+        } else {
+            itens.style.display = "none"
         }
     }
 </script>
